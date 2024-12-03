@@ -1,0 +1,39 @@
+.navbar-custom {
+    background-color: black;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: orange;
+}
+.navbar-custom .nav-link:hover {
+    color: white;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+head{
+background-color: black;
+
+.navbar-custom {
+    background-color: black;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: orange;
+}
+.navbar-custom .nav-link:hover {
+    color: white;
+}
+.content {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px; 
+}
+
+}
+
+body {
+    background-color: orange; }
