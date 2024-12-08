@@ -4,7 +4,6 @@ $(document).ready(function() {
         var headerHeight = $('.navbar').outerHeight(); // Adjust this selector to match your header
         $('html, body').animate({
             scrollTop: $('#body-section').offset().top - headerHeight
-        }, 1000); // Adjust the duration as needed
+        }, 1000);
     });
 });
-

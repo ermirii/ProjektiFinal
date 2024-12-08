@@ -33,6 +33,18 @@ background-color: black;
     padding: 20px; 
 }
 
+.table {
+    width: 100%; /* Make the table take full width of the column */
+    max-width: 50%; /* Limit the table width to half the page */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.table-dark {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white for contrast */
+}
+
+
 }
 
 body {
@@ -48,8 +60,21 @@ body {
       }
     
       .table {
-        width: 100%;
+        width: 50%;
         margin-top: 20px;
     }
-    
+
+    .container-1{
+        margin-left:-10px ;
+       margin-top: -20px;
+       color: black;
+    }
+    .table-dark {
+        color: white;
+        background-color: #343a40;
+    }
+     
+    .table-dark td{
+        background-color: black;
+    }
    
