@@ -78,12 +78,47 @@ body {
         background-color: black;
     }
    
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 20px;
-    }
-    
    
-    
+    .match-card {
+        position: absolute; /* Position the card in the middle */
+        top: 50%; /* 50% from the top of the viewport */
+        left: 50%; /* 50% from the left of the viewport */
+        transform: translate(-50%, -50%); /* Center the card exactly */
+        width: 300px; /* Optional: set a width */
+        padding: 10px; /* Add some padding for spacing */
+        background-color: #333; /* Dark background for contrast */
+        color: #fff; /* White text */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .match-card .time {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    .match-card .teams {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .match-card .team {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .match-card .team img {
+        width: 20px;
+        height: 20px;
+    }
+    .match-card .favorite {
+        font-size: 1.5em;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .match-card .favorite:hover {
+        color: gold;
+    }
